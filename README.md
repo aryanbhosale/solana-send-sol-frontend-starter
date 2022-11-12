@@ -3,10 +3,12 @@
 # Transfer SOL from one account to another
 
 To make this possible, I am using the [Web3.JS](https://docs.solana.com/developing/clients/javascript-api) and 
+
     - @solana/wallet-adapter-base 
     - @solana/wallet-adapter-react 
     - @solana/wallet-adapter-phantom 
     - @solana/wallet-adapter-react-ui 
+    
 libraries provided to us by [Solana](https://solana.com/)
 
 The entire source code is well documented within the file to guide the reader at every step
