@@ -5,7 +5,6 @@ import { AppBar } from '../components/AppBar'
 import { SendSolForm } from '../components/SendSolForm'
 import Head from 'next/head'
 import { BalanceDisplay } from '../components/BalanceDisplay'
-import * as web3 from '@solana/web3.js'
 
 const Home: NextPage = (props) => {
 
@@ -19,6 +18,7 @@ const Home: NextPage = (props) => {
           name="description"
           content="Wallet Adapter"
         />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <AppBar />
       <div className={styles.AppBody}>

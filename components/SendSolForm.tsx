@@ -54,7 +54,6 @@ export const SendSolForm: FC = () => {
                 <>
                     <p className={styles.form}><b>TRANSACTION SUCCESSFUL!!!</b></p>
                     <p className={styles.form}>Check your transaction on <a href={`https://explorer.solana.com/tx/${transactionSignature}?cluster=devnet`}>Solana Explorer</a></p>
-                    
                 </>
             ) : ''}
         </div>
