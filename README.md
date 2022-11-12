@@ -82,6 +82,3 @@ async function callProgram(
     )
 }
 ```
-
-## This is the [buildspace](https://buildspace.so/) Solana Core-1 final shipping task
-
